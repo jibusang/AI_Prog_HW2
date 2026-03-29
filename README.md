@@ -54,5 +54,5 @@ def load_data(self):
     
     # 捕获其他所有未知异常，保证程序不崩溃
     except Exception as e:
-        print(f"❌读取异常：{e}")
+        print(f"读取异常：{e}")
         
